@@ -1,4 +1,3 @@
 # leaflet_heatmap
-简单的可视化湖州通话数据 假设数据量很大，没法用浏览器直接绘制热力图，把绘制热力图这一步骤放到线下计算分析。使用Apache Spark并行计算数据之后，再使用Apache Spark绘制热力图，然后用leafletjs加载OpenStreetMap图层和热力图图层，以达到良好的交互效果。现在使用Apache Spark实现绘制，可能是Apache Spark不擅长这方面的计算或者是我没有设计好算法，并行计算的速度比不上单机计算。Apache Spark绘制热力图和计算代码在这 https://github.com/yuanzhaokang/ParallelizeHeatmap.git .
-下面是一个例子：
-https://github.com/yuanzhaokang/leaflet_heatmap/blob/master/example.png
+简单的可视化湖州通话数据 假设数据量很大，没法用浏览器直接绘制热力图，把绘制热力图这一步骤放到线下计算分析。使用Apache Spark并行计算数据之后，再使用Apache Spark绘制热力图，然后用leafletjs加载OpenStreetMap图层和热力图图层，以达到良好的交互效果。现在使用Apache Spark实现绘制，可能是Apache Spark不擅长这方面的计算或者是我没有设计好算法，并行计算的速度比不上单机计算。Apache Spark绘制热力图和计算代码在这 https://github.com/yuanzhaokang/ParallelizeHeatmap.git  
+形成的论文：http://www.jcad.cn/jcadcms/show.action?code=publish_402880124b362464014b3c4d819803a1&newsid=2944503fc0d848f09bd21561a7c3e8f9
